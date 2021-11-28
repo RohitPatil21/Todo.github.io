@@ -1,0 +1,105 @@
+html{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------------- Navigation Bar------------------------  */
+nav{
+    background-color: #0e0e1b;
+    height: 5.4rem;
+    padding: 5px 15rem;
+}
+
+#logo{
+    color : #ffff;
+    font-size : 3rem;
+    float: left;
+    margin-top: 5px;
+}
+
+#search{
+    float: right;
+    font-size: 1.9rem;
+    padding: 5px 1.5rem;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#heading{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+    opacity: 80%;
+}
+
+/*-------------------------------- Main Container----------------------------  */
+#container{
+    /* height: 40vh; */
+    width: 70vw;
+    box-shadow: 0 0 10px black;
+    margin: 2rem auto;
+    padding: 5rem;
+}
+
+#enterTask{
+    /* text-align: center; */
+    /* background-color: red; */
+    /* width: 70vw; */
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputEnterTask{
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    padding: 5px 1rem;
+    outline: none;
+    width: 60%;
+}
+
+#addbtn{
+    font-size: 1.5rem;
+    background-color: green;
+    color: #ffff;
+    border: none;
+    outline: none;
+    margin-right: 1rem;
+    padding: 7px;
+    border-radius: 5px;
+    width: 13rem;
+}
+
+#deleteAllbtn{
+    font-size: 1.5rem;
+    background-color: red;
+    color: #ffff;
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 5px;
+    width: 13rem;
+}
+
+
+/* .taskList{
+    background-color: red;
+    height: 70%;
+    width: 80%;
+    margin: auto;
+} */
+
+
+
+
+
